@@ -5,6 +5,7 @@ gg.sleep("200")
 
 else
 gg.toast("Wrong Password!! ") 
+os.exit()
 end
 
 gg.setVisible(true)
