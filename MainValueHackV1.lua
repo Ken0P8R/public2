@@ -1,4 +1,11 @@
+r = "qowkwodjwosjjfiejwkqpqpsleqjhs"
+R = gg.prompt({"Please Enter Password: "})
+if R[1] == r then
+gg.sleep("200")
 
+else
+gg.toast("Wrong Password!! ") 
+end
 
 gg.setVisible(true)
 gg.alert("⚠️ WARNING ⚠️ \n \nYou Login As Public Account!")
