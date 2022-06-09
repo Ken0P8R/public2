@@ -74,11 +74,11 @@ end
 
 function abt() 
 gg.toast("JANGAN BERLEBIHAN !!! ") 
-input = gg.prompt({"Enter Custom Speed Hack Value: (Backup: 1)"},
-{[1] = "1"},
-{[1] = "Number"}) 
+gg.sleep("600")
+local input = gg.prompt({"Enter Custom Speed Hack Value: (Backup: 1)"},
+{[1] = "1"})
 gg.setSpeed(input[1])
-gg.toast("Done Custom Speed Hack! ") 
+gg.toast("Done Custom Speed Hack!\nSet To: "..input[1]) 
 end
 
 function SBackup() 
